@@ -1,0 +1,19 @@
+{
+  "configurations": [
+      {
+          "name": "avr",
+          "includePath": [
+              "${workspaceFolder}/**",
+              "/usr/lib/avr/include/",
+              "/usr/lib/gcc/avr/5.4.0/include"
+          ],
+          "defines": [
+            "__AVR_ATtiny85__"
+        ],
+          "compilerPath": "/usr/bin/avr-gcc",
+          "cStandard": "c99",
+          "intelliSenseMode": "gcc-x86"
+      }
+  ],
+  "version": 4
+}
